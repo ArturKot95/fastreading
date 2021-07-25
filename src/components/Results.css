@@ -1,0 +1,16 @@
+.result {
+  width: 20px;
+  height: 20px;
+}
+
+.result {
+  display: inline-block;
+}
+
+.result-good {
+  background-color: green;
+}
+
+.result-wrong {
+  background-color: red;
+}

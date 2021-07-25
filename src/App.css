@@ -1,0 +1,24 @@
+@keyframes good {
+  from {background-color: lightgreen;}
+  to {background-color: transparent;}
+}
+
+@keyframes wrong {
+  from {background-color: red;}
+  to {background-color: transparent;}
+}
+
+.inputDiv {
+  border: solid 1px black;
+  border-radius: 2px;
+}
+
+.good {
+  animation-name: good;
+  animation-duration: 0.3s;
+}
+
+.wrong {
+  animation-name: wrong;
+  animation-duration: 0.3s;
+}
